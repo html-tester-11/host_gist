@@ -12,3 +12,5 @@
 Sources 
 
 https://kosamari.com/notes/Turn-Your-Gist-To-Html
+
+s/+/-/
