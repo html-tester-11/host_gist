@@ -1,0 +1,14 @@
+<html>
+<script>
+var _json_api="https://api.github.com/gists/fcb39f54576e3b2d68ef845b2416d2bb";
+fetch(_json_api)
+  .then(function(response) {
+    return response.json()
+  }).then(function(json) {
+    console.log('parsed json', json)
+  }).catch(function(ex) {
+    console.log('parsing failed', ex)
+  })
+  
+  </script>
+  </html>
